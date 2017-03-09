@@ -2,6 +2,11 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QWidget>
+#include <iostream>
+#include <vector>
+#include <string>
+#include <QString>
 
 namespace Ui {
 class MainWindow;
@@ -14,6 +19,9 @@ class MainWindow : public QMainWindow
 public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
+
+private slots:
+    void compute_grade() const;
 
 private:
     Ui::MainWindow *ui;

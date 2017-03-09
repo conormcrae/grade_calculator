@@ -8,13 +8,15 @@ int main(int argc, char *argv[])
     //MainWindow w;
     //w.show();
 
-    QPushButton button ("Hello, world!");
-    button.setText("some text");
-    button.setToolTip("A hint...");
+    //QPushButton button ("Hello, world!");
+    //button.setText("some text");
+    //button.setToolTip("A hint...");
 
+    MainWindow display;
+    display.show();
 
-    QPushButton button1("hi.", &button);
-    button.show();
+    //QPushButton button1("hi.", &button);
+    //button.show();
 
     return a.exec();
 }
